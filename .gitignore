@@ -1,0 +1,9 @@
+*.o
+*.obj
+*.elf
+*.bin
+
+*.a
+*.out
+*.hex
+
