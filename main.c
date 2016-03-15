@@ -40,7 +40,7 @@ int main()
     //usartPrint("STM32\r\n");
       if(usartHaveBytes()){
       inByte = usartGet();
-          if (inByte == 's'){
+          if (inByte <= 'z' && inByte >= 'A'){
               STM_EVAL_LEDToggle(LED5);
           }
       usartPut(inByte);
